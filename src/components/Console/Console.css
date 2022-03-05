@@ -1,0 +1,32 @@
+.ConsoleItem {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+
+.Output {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.InputArea>input {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    bottom: 0;
+    border: none;
+    overflow: hidden;
+}
+
+.Console {
+    margin-left: 20px;
+    background-color: gray;
+    height: 512px;
+    width: 384px;
+}
+

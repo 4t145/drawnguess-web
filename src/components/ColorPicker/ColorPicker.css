@@ -1,0 +1,6 @@
+.ColorPicker {
+    width: 180px;
+    height: 675px;
+    display: flex;
+    flex-direction: row;
+}

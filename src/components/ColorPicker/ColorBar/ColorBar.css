@@ -1,0 +1,29 @@
+.ColorBar {
+    width: 60px;
+    height: 675px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.colorbar-button {
+    position: relative;
+    top: auto;
+    width: 60px;
+    height: 15px;
+    display: block;
+    background-color: #faebd7;
+    z-index:1;
+}
+
+
+.ColorBar>input{
+    position: absolute;
+    height: 675px;
+    display: flex;
+    margin: 0;
+    width: 60px;
+    opacity: 0 ;
+    -webkit-appearance: slider-vertical;   
+    z-index: 2;
+}
